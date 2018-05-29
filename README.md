@@ -1,3 +1,0 @@
-#Read Me
-
-This file exists simply to say that all temp files shall be uploaded...
