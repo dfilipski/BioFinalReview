@@ -7,6 +7,7 @@
 
 \usepackage{ot-tableau}
 \usepackage[backend=biber, style=authoryear-icomp]{biblatex}
+\usepackage{textgreek}
 \usepackage{easylist}
 \usepackage{hanging}
 \usepackage{hyperref}
@@ -18,6 +19,8 @@
 \usepackage{enumerate}
 \usepackage{longtable}
 \usepackage{textgreek}
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{wasysym}
 \addbibresource{$HOME/Documents/LaTeX/uni.bib}
 
 
@@ -34,9 +37,41 @@ For this, see the google doc.
 
 \section{Genetics}
 
+\subsection{Sex-linked genes}
+
+These are genes located on the sex chromosomes.
+They will show different phenotype frequencies based on gender.
+
+\begin{exe}
+\ex Gene A is on the X chromosome.
+A is the wild type, and \textalpha \ is the diseased type.\\
+X\textsuperscript{A}X\textsuperscript{\textalpha} $\times$ X\textsuperscript{A}Y:\\
+
+\begin{tabular}{l | l}
+X\textsuperscript{A}Y & X\textsuperscript{\textalpha}Y\\
+X\textsuperscript{A}X\textsuperscript{A}  & X\textsuperscript{\textalpha}X\textsuperscript{A}\\
+
+\end{tabular}
+\end{exe}
+
+\subsection{Pedigrees}
+\Circle \ = Unaffected Female\\
+\CIRCLE \ = Affected Female\\
+$\square$ = Unaffected Male\\
+$\blacksquare$ = Affected Male\\
+Connecting lines on pedigrees work just as they do on family trees.
+Relatively simple logic can be used to determine the genotypes of each member of the pedigree; however, some can be more difficult than others.
+My general method is to use the ``method of staring'' in the words of Mr. Letarte.
+
+\subsection{Genetic Disorders -- Sickle Cell, Cystic Fibrosis, Huntington's}
+
+\subsection{Nondisjunction}
+
+\subsection{Recombinant DNA -- Restriction Enzymes, Ligase, Electrophoresis, GFP, PCR, Selectable Markers, Screens, Plasmids, Transformations}
+
+\subsection{Selective Breeding -- Hybridization vs Inbreeding}
+
 <++>
 
-
-\printbibliography
 
 \end{document}
