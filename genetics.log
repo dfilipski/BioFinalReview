@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2018.4.14)  28 MAY 2018 20:05
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Arch Linux) (preloaded format=xelatex 2018.4.14)  28 MAY 2018 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1370,11 +1370,11 @@ Package logreq Info: Writing requests to 'genetics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28795 strings out of 493007
- 529682 string characters out of 6140075
+ 28789 strings out of 493007
+ 529519 string characters out of 6140075
  984336 words of memory out of 5000000
- 32493 multiletter control sequences out of 15000+600000
- 535965 words of font info for 56 fonts, out of 8000000 for 9000
+ 32491 multiletter control sequences out of 15000+600000
+ 535949 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  41i,7n,45p,10426b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
 
