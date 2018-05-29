@@ -1,6 +1,6 @@
 # Remove all files
 *
 # Add back files
-!FinalOverview.pdf
-!FinalOverview.tex
+!biofinal.pdf
+!biofinal.tex
 !.gitignore
