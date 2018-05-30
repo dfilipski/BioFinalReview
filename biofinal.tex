@@ -5,6 +5,8 @@
 \usepackage{fontspec}
 \usepackage[margin=.75in]{geometry}
 
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 \usepackage{ot-tableau}
 \usepackage[backend=biber, style=authoryear-icomp]{biblatex}
 \usepackage{textgreek}
@@ -135,6 +137,24 @@ DNA Sequencing:
 \item Provide DNA polymerase and the four nucleotides, with a small fraction of the nucleotides modified so that DNA polymerase cannot extend from them (remove 3 hydroxyl)
 \end{itemize}
 
+GFP -- Green Fluorescent Protein\\
+\indent GFP is used to see where or when certain promoters are expressed and to tag proteins.\\
+
+PCR -- Polymerase Chain Reaction\\
+\begin{itemize}
+\item Amplify a specific DNA Sequence
+\item NEED: Template DNA, Primers, DNA Polymerase, nucleotides (all four)
+\item Three steps
+\begin{enumerate}
+\item Denature -- Use heat to separate the helix
+\item Anneal -- Lower the tempurature, so the primers can bind
+\item Extension -- Polymerase extends from the primers
+\item Repeat steps 1 - 3 around 30 or 40 times
+\end{enumerate}
+
+\end{itemize}
+
+
 \subsection{Selective Breeding -- Hybridization vs Inbreeding}
 
 Selective breeding -- only allowing parents with certain characteristics to breed.\\
@@ -153,45 +173,224 @@ Inbreeding:
 \section{Evolution} %This section will be done tonight.
 
 \subsection{Darwin's Observations and Background Knowledge}
-<++>
+Darwin made three key observations:
+\begin{enumerate}
+\item Species vary globally.
+\item Species vary locally.
+\item Species vary over time.
+\end{enumerate}
+More specifcally, there are the same types of animals in the same enviroments across the globe (ie. emu, ostritch, and reah)
+Also Darwin made the observation about the finches and stuff.
+That leads nicely into the next section, so read that.
 
 \subsection{Evolutionary Theory -- Adaptations, Fitness, Natural Selection, etc.}
-<++>
+%Natural Selection -- Members of a population must compete for resources (food, water, space, etc.),
+%and only the most fit can survive.\\
+Natural Selection -- the process by which individuals with greater fitness survive and leave behind more offspring.
+This occurs whenever more individuals are born than can survive, there is heritable variation, and that variation leads to varying levels of fitness.\\
+\\
+Adaptation -- any heritable characteristic that increase an organism's chance to survive and reproduce.\\
+\\
+Fitness -- how well an organism can survive in its enviroment.
 
 \subsection{Evidence for Evolution}
-<++>
+\begin{itemize}
+\item Fossil Record -- evidence for common decent
+\item Carbon Dating -- the Earth is around 4.6 billion years old
+\item Homologous Structures -- Structures that are shared by related species and were inheirited from a common ancestor
+\item Cestigial Structures -- Structures that are inheirited from common ancestors and no longer used
+\item Analogous Structures -- Structures that share a common function but not a common structure.
+\item Embyology (The Study of Embryo Developement) -- The early stages of developement of embryos look very similar for vertibrates
+\item Genetic Code -- all living things use DNA as the genetic material, transcribe RNA from DNA, and translate proteins from RNA. Triplet code is nearly universal.
+\item Homologous Proteins and RNA -- Proteins and RNA that share similar structure and function.
+\end{itemize}
 
 \subsection{Population Genetics -- Hardy-Weinberg Equation and Conditions that disrupt equilibrium, selection on polygenic traits}
-<++>
+Hardy-Weinberg Principle -- allele frequencies remain constant unless one or more factors cause them to change.\\
+\\
+Single gene trait with two alleles. Define $p$ and $q$ as the allele frequencies, with $p$ as the dominant allele and $q$ as the recessive allele.\\
+\\
+Hardy-Weinberg Equation: $p^{2}+2pq+q^{2}=1$ or $p+q=1$\\
 
+\begin{tabular}{| c | c |}
+\hline
+$p^{2}$ & $qp$\\
+\hline
+$pq$ & $q^{2}$\\
+\hline
+\end{tabular}
+\\
+\\
+\\
+Example: Mouse Populations\\
+\begin{tabular}{|p{10cm}}
+50\% AA [BLACKMOUSE] 50 Mice\\
+40\% Aa [BLACKMOUSE] 40 Mice\\
+10\% aa [WHITEMOUSE] 10 Mice\\
+$P(AA)=p^{2}\Rightarrow f(A)^{2}=0.49$\\
+$P(Aa)=2pq=0.42$\\
+$P(a)=q^{2}$\\
+\end{tabular}
+
+Disruptions of Equilibrium:\\
+\begin{enumerate}
+\item Natural Selection
+\item Mutations
+\item Migration (Immigration and Emmigration)
+\item Nonrandom Mating (Sexual Selection)
+\item Small Population
+\begin{itemize}
+\item Bottle Neck Effect
+\item Founder Effect
+\end{itemize}
+\end{enumerate}
+Polygenic selection on next page.
+
+\includegraphics[scale=0.2]{multigenegraphs}
 \subsection{Speciation}
-<++>
+Species -- Population that breeds together\\
+\\
+Reproductive Isolation -- Two populations can no longer interbreed and mat evolve into two different species\\
+Types of Isolation:
+\begin{enumerate}
+\item Geographic Isolation -- Population physically separated
+\item Behaivioral Isolation -- Differences in courtship rituals or methods
+\item Temporal Isolation -- Two populations do not mate at the same time
+\end{enumerate}
 
 \subsection{Molecular Clocks}
-<++>
+Molecular Clock -- Use mutation rates in DNA to estimate when two species diverged from a common ancestor
+\begin{itemize}
+\item Most mutations are neutral, which means they accumalte over time
+\item Some genes tolerate mutations better than others
+\item The greater the number of differences in the DNA sequences of two species, the more time has elapsed since sharing a common ancestor.
+\end{itemize}
 
 \subsection{Binomial Nomenclature and Linnaean Classification}
-<++>
+Systematics -- Science of naming and grouping organisms into taxa that have biological meaning.\\
+\\
+Binomial Nomenclature -- two word science names\\
+\\
+Linaean Classification System:
+\begin{itemize}
+\item Domain
+\item Kingdom
+\item Phylum
+\item Class
+\item Order
+\item Family
+\item Genus
+\item Species
+\end{itemize}
+These can be remembered via the snazzy acronym \textbf{K}aty \textbf{P}erry \textbf{C}laims \textbf{T}hat \textbf{O}rgasms \textbf{F}eel \textbf{G}ood \textbf{S}ometimes.\\
+\\
+\begin{tabular}{| c | c |}
+\hline
+Domain & Kingdoms within\\
+\hline
+Bacteria & Eubacteria\\
+\hline
+Archaea & Archaea Bacteria\\
+\hline
+Eukarya & Protists, Fungi, Plants, Animals\\
+\hline
+
+\end{tabular}
 
 \subsection{Cladograms}
-<++>
+Clade -- a group of species that includes a single common ancestor and all descendants of that ancestor, living or dead\\
+\\
+Monphyletic vs. Paraphyletic -- paraphyletic groups are missing a common ancestor or contain multiple common ancestors or are missing descendants
+\\
+\includegraphics[scale=0.1]{cladogram}\\
+\\
+Buildings Cladograms:
+\begin{itemize}
+\item derived characteristic -- trait that arose in the most recent common ancestor of a lineage and was passed along to its descendants
+\item parsimony (Occam's Razor) -- the simplest explanation is often correct.
+\end{itemize}
 
 \subsection{Domains and Kingdoms}
-<++>
+
+Bacteria:
+\begin{itemize}
+\item Unicellular Prokaryotes
+\item Cell wall made from peptidoglycan
+\item autotrophhic (photosynthesis or chemosynthesis) or heterotrophic
+\item Some use oxygen for E.T.C.
+\end{itemize}
+
+Archaea:
+\begin{itemize}
+\item Unicellular Prokaryotes
+\item Cell wall that doesn't contain peptidoglycen
+\item Cell membranes with phospholipids not found in other domains
+\item Autotrophic (chemosynthesis) or heterotrophic
+\item Killed by O_2
+\end{itemize}
+
+Protists
+\begin{itemize}
+\item Unincellular, Colonies and Multicellular (brown algae)
+\item At least five clades -- one closely related to funi, another to plants, and another to animals
+\item Some have cellulose cell walls
+\item Autotrophic (photosynthesis) or Heterotrophic
+\end{itemize}
+
+Fungi:
+\begin{itemize}
+\item Most multicellular, some unicellular
+\item Cell walls made from chitin
+\item Heterotrophs (detritivores or decomposers)
+\end{itemize}
+
+Plants:
+\begin{itemize}
+\item Most multicellular, some unicellular (green algae)
+\item Cell wall from cellulose
+\item Autotrophs (photosynthesis)
+\item nonmotile
+\end{itemize}
+
+Animals:
+\begin{itemize}
+\item Multicellular
+\item No cell wall
+\item Heterotrophs
+\item Motile
+\end{itemize}
 
 \subsection{Fossil Record}
-<++>
-
-\subsection{Speciation and Extinction Events}
-<++>
+\begin{itemize}
+\item Most fossils preserved in sedimentary rock
+\item Made when organism falls in water and is buried in sand, silt, or mud. Then the sedimentary rock process happens. Shell, bones, and teeth remain if buried slowly. Soft tissue only remains if buried quickly.
+\item Dating Fossils:
+\begin{itemize}
+\item Relative dating -- use index fossils to establish a temporal sequence
+\item Radiometric dating -- use radioactive isotopes (they decay to get to stability)
+\begin{itemize}
+\item Kinetics of Decay:
+\item $t=time$, $\lambda =$ $rate$ $constant$, $N_t =number$ $of$ $nuclei$ $at$ $time$ $t$, $N=initial$ $number$ $of$ $nuclei$, $t_{1/2}=half$ $life$
+\item $\log_{10} {N_t/N_o} = -\lambda t$
+\item $t_{1/2}={0.693}/{\lambda}$
+\end{itemize}
+\end{itemize}
+\end{itemize}
 
 \subsection{Origins of Life including Endosymbiont Theory}
-<++>
-
-
-
-
-
-
+\begin{itemize}
+\item All life came from one cell
+\item Prokaryote endosytosed another prokaryote
+\item Didn't break it down
+\item Mitochondria first
+\item Chloroplast
+\begin{itemize}
+\item Evidence:
+\item Small circlular chromosome in Mitochondria and Chloroplasts
+\item Double membrane surround those two
+\item Custom ribosome
+\item Reproduce separatly from the rest of the cell
+\end{itemize}
+\end{itemize}
 
 \end{document}
