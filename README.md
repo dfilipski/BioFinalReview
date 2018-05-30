@@ -1,14 +1,14 @@
-#Bio Final Review Guide
+# Bio Final Review Guide
 This is a review guide made for the Biology 1 Final by Danny Filipski and Christopher 
 Milan. 
-#Using for Studying
+# Using for Studying
 Just download the pdf and use that. Or open it in the GitHub PDF openner, but thats a 
 bit slow.
-#Contributing
+# Contributing
 Please submit a pull request with you changes by forking this repository and then 
 submitting your changes in a PR. 
 
-##Checklist:
+## Checklist:
 - [ ] Fork the repository or clone it if you have write access. 
 - [ ] Make your changes.
 - [ ] Run ```xelatex biofinal.tex``` to compile it into a PDF.
