@@ -2,7 +2,7 @@
 This is a review guide made for the Biology 1 Final by Danny Filipski and Christopher 
 Milan. 
 # Using for Studying
-Just download the pdf and use that. Or open it in the GitHub PDF openner, but thats a 
+Just download the pdf and use that. Or open it in the GitHub PDF openner, but that's a 
 bit slow.
 # Contributing
 Please submit a pull request with you changes by forking this repository and then 
