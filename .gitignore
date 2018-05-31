@@ -1,7 +1,6 @@
 # Remove all files
 *
 # Add back files
-!biofinal.pdf
 !biofinal.tex
 !.gitignore
 !*.jpg
