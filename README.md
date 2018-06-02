@@ -4,6 +4,7 @@ Milan.
 # Using for Studying
 Just download the pdf and use that. Or open it in the GitHub PDF openner, but that's a 
 bit slow.
+It is a bit late now; however, for future users of this study guide, it is highly reccomended to also study AP questions.
 # Contributing
 Please submit a pull request with you changes by forking this repository and then 
 submitting your changes in a PR. 
